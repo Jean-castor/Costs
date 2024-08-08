@@ -1,0 +1,44 @@
+
+:root{
+    --color-yellow: #FFBB33;
+}
+
+.face{
+    text-decoration: none;
+}
+.footer{
+    background-color: #222;
+    color: #FFF;
+    padding: 3rem;
+    text-align: center;
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social_list li{
+    margin: 0 1rem;
+}
+
+.social_list li:hover{
+    color: var(--color-yellow);
+    
+}
+
+.social_list svg{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.copy_rigth{
+    margin-top: 2rem;
+}
+
+.copy_rigth span{
+    font-weight: bold;
+    color: var(--color-yellow);
+    
+}

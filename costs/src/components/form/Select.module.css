@@ -1,0 +1,20 @@
+.form_control{
+    display: flex;
+    flex-direction: column; /*layout colunar*/
+    margin-bottom: 1rem; /*afastar os elementos*/
+}
+
+.form_control label{
+    margin-bottom: 1.6rem;
+    font-weight: bold;
+}
+
+.form_control select{
+    padding: .7rem;
+    border-radius: 0;
+    border: none;
+}
+
+.form_control::placeholder{ /*pseudo elemento*/
+    color: #7b7b7b;
+}

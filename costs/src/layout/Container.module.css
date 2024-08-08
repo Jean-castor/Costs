@@ -1,0 +1,32 @@
+.container {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min_heigth{
+    min-height: 75vh;
+    
+}
+
+/*Mata a propriedade justify-content: space-between;*/
+.start{
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}

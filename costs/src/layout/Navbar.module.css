@@ -1,0 +1,75 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1rem;
+    box-shadow: 1px 1px 4px #121212;
+    width: 100%; /* Adicione esta linha para definir a largura como 100% */
+    top: 0; /* Adicione esta linha para definir a barra de navegação no topo */
+    left: 0; /* Adicione esta linha para definir a barra de navegação à esquerda */
+    z-index: 1000; /* Adicione esta linha para garantir que a barra de navegação esteja na frente de outros elementos */
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar_icon{
+    width: 5rem;
+}
+
+.item{
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.item a{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #343333;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1ms;
+}
+
+.item a:hover{
+    color: #FFBB33;
+    text-decoration: none;
+    padding: 12px;
+
+}
+
+@media screen and (max-width: 768px) {
+  
+    .navbar {
+        padding: 10px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+      }
+      .item a{
+        padding: 7px;
+        border-radius: 5px;
+        background-color: #343333;
+        color: #FFF;
+        text-decoration: none;
+        font-weight: bold;
+       
+    }
+    .list{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 0rem;
+        
+    }
+    
+    
+    }
+

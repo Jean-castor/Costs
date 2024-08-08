@@ -1,0 +1,18 @@
+:root{
+    --color-yellow: #FFBB33;
+    --color-dark1: #222;
+}
+
+.btn{
+    background-color: var(--color-dark1);
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+   
+}
+
+.btn:hover{
+    color: var(--color-yellow) ;
+    
+}

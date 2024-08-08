@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "id": "5858",
+      "name": "teste de mensagem",
+      "budget": "1000",
+      "category": {
+        "id": "3",
+        "name": "Planejamento"
+      },
+      "cost": 200,
+      "services": [
+        {
+          "name": "Jean da Silva Castor",
+          "cost": "200",
+          "description": "Fazer integração com api rest",
+          "id": "6f84169b-c691-4263-8932-e516dc0722a8"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "2",
+      "name": "Design"
+    },
+    {
+      "id": "3",
+      "name": "Planejamento"
+    }
+  ]
+}
